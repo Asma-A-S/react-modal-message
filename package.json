@@ -1,10 +1,10 @@
 {
-  "name": "react-message-modal",
+  "name": "react-modal-message",
   "version": "1.0.0",
   "description": "A lightweight and animated modal component for React applications, ideal for form confirmations.",
   "author": "Asma-A-S",
   "license": "MIT",
-  "repository": "Asma-A-S/react-message-modal",
+  "repository": "Asma-A-S/react-modal-message",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -25,7 +25,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -44,8 +45,8 @@
     "gh-pages": "^2.2.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-scripts": "^3.4.1"
   },
   "files": [

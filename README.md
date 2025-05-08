@@ -7,22 +7,39 @@
 ## Install
 
 ```bash
-npm install --save react-message-modal
+npm install --save react-modal-message
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-message-modal'
+import React from 'react'
+import { useState } from 'react'
+import { Modal } from 'react-message-modal'
 import 'react-message-modal/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
+const App = () => {
+  const [showModal, setShowModal] = useState(false)
+
+  const handleSubmit = () => {
+    setShowModal(true)
   }
+
+  return (
+    <div>
+      <button onClick={handleSubmit}>Show Modal</button>
+
+      {showModal && (
+        <Modal
+          message='Your action was completed successfully!'
+          onClose={() => setShowModal(false)}
+        />
+      )}
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
