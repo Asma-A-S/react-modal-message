@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
-    "postbuild": "cp src/modal.css dist/index.css",
+    "postbuild": "copy src\\modal.css dist\\index.css",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
