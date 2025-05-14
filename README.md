@@ -2,7 +2,17 @@
 
 > A lightweight and animated modal component for React applications, ideal for form confirmations.
 
-[![NPM](https://img.shields.io/npm/v/react-message-modal.svg)](https://www.npmjs.com/package/react-message-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+## ✨ Features
+
+- Animated modal with smooth open/close
+- Accessible (`role="dialog"`, `aria-modal`)
+- Easy to integrate
+- Customizable styles via CSS
+
+## Props
+
+- message: The message to be displayed inside the modal (type: string).
+- onClose: Function called when the user closes the modal (button click or overlay)(type: function).
 
 ## Install
 
