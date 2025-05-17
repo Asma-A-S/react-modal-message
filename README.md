@@ -52,6 +52,14 @@ const App = () => {
 export default App
 ```
 
+## Node Version
+
+This package requires Node.js v10 or higher.
+
+## Recommended IDE
+
+We recommend using Visual Studio Code (VSCode) for development. It provides excellent support for React and JavaScript/TypeScript projects.
+
 ## License
 
 MIT © [Asma-A-S](https://github.com/Asma-A-S)
